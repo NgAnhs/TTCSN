@@ -1,0 +1,44 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .hang{
+            background-image: url(anhkhung.jpg);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 207px;
+        }
+        .hang1 h1{
+            color: white;
+            text-align: center;
+            padding-top: 2cm;
+            border: 2px solid white;
+            padding: 1cm;
+        }
+        .cot iframe{
+            width: 250px;
+            height: 150px;
+            margin-left: 1cm;
+        }
+        .cot{
+            float: left;
+            
+        }
+        .phai{
+    
+            margin-left: 9cm;
+
+        }
+        .no1{
+            line-height: 200%;
+        }
+        .no2{
+            line-height: 200%;
+        }
+        .no3{
+            line-height: 200%;
+        }
+    
