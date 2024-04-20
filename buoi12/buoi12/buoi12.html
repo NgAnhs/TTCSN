@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+    .menu-up{
+        max-width: 1500px;
+        height: 70px;
+        background-color: azure;
+        display: flex;
+    }
+    .timkiem{
+        margin-left: 500px;
+        width: 800px;
+        height:50px ;
+        margin-top: 15px;
+    }
+    .menu-2{
+        margin-top: 5px;
+    }
+    .danhmuc {
+        margin-left: 10px;
+        text-decoration: none;
+        list-style: none;
+
+    }
+    
+    .menu-2{
+       display: flex;
+    }
+    .list {
+        display: flex;
+        margin-left: 100px;
+
+    }
+    .list ul li a{
+        text-align: none;
+        list-style: none;
+    }
+    
+    .list a:hover{
+        background-color: blueviolet;
+    }
+    .header{
+        display: flex;
+    }
+    .danhmuc{
+        display: flex;
+    }
+    
+    .list ul{
+        margin-left: 1px;
+        display: flex;
+    }
+    
+    .list ul li {
+        text-decoration: none;
+        list-style: none;
+    }
+    .list ul li a{
+        text-decoration: none;
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .menu-2{
+        max-width: 1450px;
+    }
+    .content{
+        display: flex;
+    }
+    .list ul.sub a{
+        display: block;
+    }
+    .list  li:hover ul.sub{
+        display: block;
+    }
+    .list ul li>.sub{
+        display: none;
+        position: absolute;
+        background-color: blueviolet;
+        width: 120px;
+    }
+    .sub a{
+        border-bottom: 1px solid #444;
+    }
+</style>
+<body>
+    <header>
+        <div class="menu-up">
+            <div class="logo" style="display: flex;">
+                <img src="1.jpg" width="40px" height="30px">
+                <li style="margin-top: 1px;">
+                <h2 style="color: aquamarine;">DUALEO-X</h2>
+                <h2 style="font-size: 10px;margin-top: 1px;">thực phẩm sạch cho mọi nhà</h2>
+
+            </li>
+            </div>
+            
+            <div class="timkiem">
+                <button onclick="sp">sản phẩm</button>
+                
+                <input type="text" name="" placeholder="bạn muốn mua sản phẩm gì?" style="width: 250px;">
+            <a href="" style="text-decoration: none;">Đăng kí/đăng nhập</a>
+            </div>
+
+        </div>
+        <div class="menu-2">
+            <div class="danhmuc">
+                <ul>
+                    <li>
+        <a href="" style="text-decoration: none;background-color: brown;height: 9px; width: 600px;font-size: 20px;">Tất cả các danh mục</a>  
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="list">
+                <ul>
+                    <li>
+                    <a href="https://fit.haui.edu.vn/vn">trang chủ</a>
+                </li>
+                <li><a href="">sản phẩm</a>
+                    <ul class="sub">
+                        <li><a href=""> menu</a></li>
+                        <li><a href=""> menu</a></li>    
+                <li><a href=""> menu</a></li>
+                </ul>
+            </li>
+                <li><a href="">tin tức</a>
+                    <ul class="sub">
+                        <li><a href=""> menu</a></li>
+                        <li><a href=""> menu</a></li>    
+                <li><a href=""> menu</a></li>
+                </ul>
+            </li>
+                <li><a href="">giới thiệu</a></li>
+                <li><a href="">liên hệ</a></li>
+            </ul>
+            </div>
+            <div class="lienhe" style="margin-left: 400px; display: flex;text-decoration: none;list-style: none;">
+                <img src="1.jpg" width="30px" height="20px">
+                <li style="margin-left: 20px;"><p>0972332803</p>
+                    <p>hỗ trợ khách hàng</p></li>
+                
+            </div>
+            
+        </div>
+        
+        
+    </header>
+    <main>
+        <div class="content">
+            <ul class="sub" style="background-color: aliceblue;width: 200px;margin-top: 0px;">
+                <li>trang chủ</li>
+                <li>hoa quả</li>
+                <li>rau củ</li>
+                <li>thịt</li>
+    <li>hải sản</li>
+    <li>đồ uống</li>
+    <li>sữa uống</li>
+            </ul>
+            <div class="anh">
+                <img src="2.jpg" width="1200px" height="300px">
+                <p>SẢN PHẨM ĐẾN TỪ THIÊN NHIÊN</p><br>
+                <p>bảo vệ sức khoẻ-cuộc sống tươi đẹp</p>
+            </div>
+        </div>
+        
+    </main>
+
+    <footer>
+       
+    </footer>
+</body>
+</html>

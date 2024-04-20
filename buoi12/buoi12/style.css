@@ -1,0 +1,273 @@
+*{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style: none;
+}
+.container{
+    margin:0px auto;
+     max-width: 100%;
+}
+.inner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ul#main-menu {
+    display: flex;
+}
+ul#main-menu a{
+    text-transform: uppercase;
+    padding:10px 20px;
+    color:white;
+    display:block;
+    text-decoration: none;
+    font-size: larger;
+    
+}
+#wrapper{
+    background-image: linear-gradient(0,rgba(255,255,0,0.5),#ccc),
+   url(11.jpg);
+   background: 100%;
+}
+body{
+    font-family:'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-image: linear-gradient(0,rgba(255,255,0,0.5),#ccc),
+   
+  
+   
+}
+#logo{
+    text-transform: uppercase;
+}
+header{
+position: fixed;
+top:0;
+left:0;
+width:100%;
+border-bottom: 1px solid #f5f5f5;
+padding:10px 0px;
+}
+.container{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    border-bottom: 1px solid #f5f5f5;
+    padding:10px 0px;
+    }
+.ct{
+    min-height: 100vh;
+    
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 75px;
+}
+.gallery-display-area{
+    overflow:hidden;
+    height: 820px;
+    width: 1080px;
+    margin: 0 auto;
+}
+.gallery-wrap{
+    width: 500%;
+    animation: slideShow 16s infinite;
+}
+.anh1 img{
+    text-align: center;
+    align-items: center;
+    padding-left: 40px;
+}
+.anh1{
+    padding-left: 30px;
+}
+
+.anh2 h1 a{
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    color: #ccc;
+    
+}
+.image{
+    float:left;
+    height:608px;
+    width:1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-reflect: below 1px -webkit-gradient(linear,right top, right bottom,
+    form(transparent),to(rgba(255,255,255,0.3)));
+}
+@keyframes slideShow{
+    20%{
+        margin-left: 0;
+    }
+    30%{
+        margin-left: -100%;
+    }
+    40%{
+        margin-left: -100%;
+    }
+    50%{
+        margin-left: -200%;
+    }
+    60%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -300%;
+    }
+    80%{
+        margin-left: -300%;
+    }
+    90%{
+        margin-left: -400%;
+    }
+    100%{
+        margin-left: -400%;
+    }
+}
+.anh{
+    display: flex;
+    padding: 50px 50px 50px 50px;
+}
+.anh1{
+    display: flex;
+    padding: 50px 50px 50px 50px;
+}
+.anh1 img{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.ft{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 6px;
+    padding-left: 100px;
+    
+}
+footer img{
+    margin-left: 0px;
+}
+.lk{
+    padding-left: 200px;
+    
+}
+.ft{
+    background-image: linear-gradient(0,rgb(172, 0, 26),#ccc);
+    height: 300px;
+}
+.truso{
+    margin-left: 40px;
+}
+.truso p{
+    margin-top: 5px;
+}
+
+nav ul.sub a{
+    display: block;
+    left: 0;
+}
+nav  li:hover ul.sub{
+    display: block;
+}
+nav ul li>.sub{
+    display: none;
+    position: absolute;
+    background-color:#6a6666;
+    width: 260px;
+    
+
+}
+nav ul.sub{
+    position: absolute;
+    display: none;
+}
+.sub a{
+    border-bottom: 1px solid #444;
+}
+nav ul.sub ul.sub{
+    left: 257px;
+    top: 45px;
+}
+nav li:hover>.sub{
+    display: block;
+    
+}
+nav ul.sub ul.sub{
+    position: absolute;
+    display: block;
+}
+#main-menu ul.sub{
+    position: absolute;
+    background-color:#6a6666;
+    list-style: none;
+    display: none;
+    
+}
+#main-menu li:hover >ul.sub{
+
+display: block;
+}
+#main-menu ul.sub li:hover a{
+    background-color: rgb(40, 30, 30);
+}
+
+.nganh{
+    align-items: center;
+    text-align: center;
+}
+.nganh h1{
+    font-size: 50px;
+    
+}
+.nganh1{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
+    text-align: center;
+    align-items: center;
+    border: 1px solid;
+    margin-right: 300px;
+    height: 600px;
+    width: 1080px;
+}
+
+.nganh3{
+    margin-left: 200px;
+}
+.nganh3 a{
+    font-size:30px ;
+    text-decoration: none;
+    color:black;
+}
+.nganh2 a{
+    font-size:30px ;
+    text-decoration: none;
+    
+    padding-left: 110px;
+}
+.nganh2 h1:hover a{
+    color:white;
+}
+.nganh3 h1:hover a{
+    color:white;
+}
+.tintuc {
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+.anh2 h1 a{
+    color: rgb(186, 42, 42);
+}
