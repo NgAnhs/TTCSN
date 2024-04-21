@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .header{
-    background-image: url(nen.jpg);
+    background-image: url(khung.jpg);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,14 +19,16 @@
     padding: 1cm;
 }
 .left{
+    margin-left: 1cm;
     float: left;
 }
 h3{
-    color: rgb(13, 69, 192);
+    color: rgb(184, 41, 16);
     padding-top: 20px;
     padding-bottom: 10px;
 }
 .noidung{
+    margin-left: 1cm;
     float: right;
     padding-left: 10px;
     line-height: 200%;
@@ -37,7 +39,7 @@ h3{
     padding-left: 10px;
 }
 .tieude{
-    color: rgb(13, 69, 192);
-    font-size: large;
+    color: rgb(184, 41, 16);
+    font-size: 20px;
 
 }
