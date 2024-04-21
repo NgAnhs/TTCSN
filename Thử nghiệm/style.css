@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url(nen.jpg);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 207px;
+    background-size: cover;
+}
+.hang1 h1{
+    color: white;
+    text-align: center;
+    padding-top: 2cm;
+    border: 2px solid white;
+    padding: 1cm;
+}
+.left{
+    float: left;
+}
+h3{
+    color: rgb(13, 69, 192);
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.noidung{
+    float: right;
+    padding-left: 10px;
+    line-height: 200%;
+    padding-bottom: 20px;
+}
+.content{
+    display: flex;
+    padding-left: 10px;
+}
+.tieude{
+    color: rgb(13, 69, 192);
+    font-size: large;
+
+}

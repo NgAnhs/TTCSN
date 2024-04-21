@@ -1,0 +1,48 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .no2, .no3, .no4{
+            display: flex;
+        }
+        .no2 img{
+            width: 8cm;
+            height: 5cm;
+            
+            margin-left: 0.5cm;
+        }
+        .no2 p{
+            margin-left: 1cm;
+            border: 2px white  solid;
+            line-height: 180%;
+        }
+        .no3 img{
+            width: 8cm;
+            height: 5cm;
+            /* float: left; */
+            margin-left: 0.5cm;
+        }
+        .no3 p{
+            margin-left: 1cm;
+            border: 2px white solid;
+            line-height: 180%;
+        }
+        .no4 img{
+            width: 8cm;
+            height: 5cm;
+            /* float: left; */
+            margin-left: 0.5cm;
+        }
+        .no4 p{
+            margin-left: 1cm;
+            border: 2px white solid;
+            line-height: 180%;
+        }
+        .no5 img{
+            margin-top: 20px;
+            width: 25vw;
+            margin-left: 1.5cm;
+        }
+    

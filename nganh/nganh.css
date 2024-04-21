@@ -5,7 +5,7 @@
             box-sizing: border-box;
         }
         .hang{
-            background-image: url(anhkhung.jpg);
+            background-image: url(../nganh/khung.jpg);
             display: flex;
             justify-content: space-around;
             align-items: center;
@@ -18,18 +18,19 @@
             border: 2px solid white;
             padding: 1cm;
         }
-        .cot iframe{
+        /* .cot iframe{
             width: 350px;
             height: 250px;
             margin-left: 1cm;
-        }
+        } */
         .cot{
             float: left;
+            margin-left: 1cm;
             
         }
         .phai{
     
-            margin-left: 11.5cm;
+            margin-left: 10cm;
 
         }
         .no1{

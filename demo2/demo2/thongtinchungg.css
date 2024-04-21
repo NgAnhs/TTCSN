@@ -5,7 +5,7 @@
 }
 
 .header{
-    background-image: url(nen2.jpg);
+    background-image: url(../../nganh/khung.jpg);
     display: flex;
     justify-content: space-around;
     align-items: center;
