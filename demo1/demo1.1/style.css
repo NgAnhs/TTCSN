@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin:0;
+    box-sizing: border-box;
 }
 ul{
     list-style: none;
@@ -133,10 +134,9 @@ padding:10px 0px;
         margin-left: -400%;
     }
 }
-.anh{
-    display: flex;
-    padding: 50px 50px 50px 50px;
-}
+
+
+
 .anh1{
     display: flex;
     padding: 50px 50px 50px 50px;
@@ -179,13 +179,19 @@ nav ul.sub a{
 nav  li:hover ul.sub{
     display: block;
 }
+
+#main-menu li .sub li{
+    position: relative;
+}
+#main-menu li .sub li:hover .sub{
+    display: block;
+    top: 0;
+}
 nav ul li>.sub{
     display: none;
     position: absolute;
     background-color:#6a6666;
     width: 260px;
-    
-
 }
 nav ul.sub{
     position: absolute;
