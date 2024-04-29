@@ -133,21 +133,18 @@ padding:10px 0px;
 .ft{
     display: flex;
     text-align: center;
-    align-items: center;
     margin-bottom: 6px;
     padding-left: 100px;
-    
+    padding-top: 25px;
+    background: #84a98c;
+    height: 230px;
 }
 footer img{
-    margin-left: 0px;
+    margin-top: 25px;
 }
 .lk{
     padding-left: 200px;
     
-}
-.ft{
-    background: #84a98c;
-    height: 300px;
 }
 .truso{
     margin-left: 40px;
@@ -204,7 +201,6 @@ nav ul.sub ul.sub{
     
 }
 #main-menu li:hover >ul.sub{
-
 display: block;
 }
 #main-menu ul.sub li:hover a{
