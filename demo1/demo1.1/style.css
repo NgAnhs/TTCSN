@@ -61,7 +61,6 @@ padding:10px 0px;
     }
 .ct{
     min-height: 100vh;
-    
     background-color: aliceblue;
     display: flex;
     justify-content: center;
@@ -70,7 +69,7 @@ padding:10px 0px;
 }
 .gallery-display-area{
     overflow:hidden;
-    height: 820px;
+    height: 900px;
     width: 1080px;
     margin: 0 auto;
 }
@@ -78,26 +77,10 @@ padding:10px 0px;
     width: 500%;
     animation: slideShow 16s infinite;
 }
-.anh1 img{
-    text-align: center;
-    align-items: center;
-    padding-left: 40px;
-}
-.anh1{
-    padding-left: 30px;
-}
 
-.anh2 h1 a{
-    text-decoration: none;
-    font-size: 20px;
-    text-align: center;
-    align-items: center;
-    color: #ccc;
-    
-}
 .image{
-    float:left;
-    height:608px;
+    float: left;
+    height: 550px;
     width:1080px;
     display: flex;
     justify-content: center;
@@ -105,6 +88,12 @@ padding:10px 0px;
     -webkit-box-reflect: below 1px -webkit-gradient(linear,right top, right bottom,
     form(transparent),to(rgba(255,255,255,0.3)));
 }
+
+.image img{
+    width: 1080px;
+    height: 608px;
+}
+
 @keyframes slideShow{
     20%{
         margin-left: 0;
@@ -137,15 +126,7 @@ padding:10px 0px;
 
 
 
-.anh1{
-    display: flex;
-    padding: 50px 50px 50px 50px;
-}
-.anh1 img{
-    display: flex;
-    margin-left: 30px;
-    margin-right: 20px;
-}
+
 .ft{
     display: flex;
     text-align: center;
@@ -162,7 +143,7 @@ footer img{
     
 }
 .ft{
-    background-image: linear-gradient(0,rgb(172, 0, 26),#ccc);
+    background: #84a98c;
     height: 300px;
 }
 .truso{
@@ -272,8 +253,38 @@ display: block;
     align-items: center;
     font-size: 40px;
     font-weight: bolder;
+    margin: 20px 0px 0px 0px ;
+}
+
+.anh1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
-.anh2 h1 a{
-    color: rgb(186, 42, 42);
+
+.pdm{
+    flex-basis: 30%;
+    display: block;
+}
+
+.pdm_pic{
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+
+.pdm .pdm_pic img{
+    width: 25vw;
+    height: 40vh;
+}
+
+.pdm_deb{
+    text-align: center;
+}
+
+.pdm .pdm_deb a{
+    margin: 0px 10px 0px 10px;
+    text-decoration: none;
+    color: #1d2d44;
+    font-weight: bold;
 }
