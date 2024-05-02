@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .header{
-    background-image: url(khung.jpg);
+    background-image: url(../demo2/demo2/khungnen.jpg);
     display: flex;
     justify-content: space-around;
     align-items: center;
